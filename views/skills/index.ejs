@@ -44,7 +44,7 @@
                 </form>
               </td>
               <td scope="row" href="/skills/<%= s.id %>"><a href="/skills/<%= s.id %>"><%= s.skill %></a></td>
-              <td scope="row"><%= s.done %> </td>
+              <td scope="row"><%= s.done ? 'done' : 'not done' %> </td>
             </tr>
           <% }); %> 
         </tbody>
