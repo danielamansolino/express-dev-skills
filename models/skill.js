@@ -36,7 +36,7 @@ function create(skill) {
 
 function deleteOne(id) {
     id = parseInt(id)
-    const idx =skills.find(skill => skill.id ===id)
+    const idx = skills.findIndex(skill => skill.id ===id)
     skills.splice(idx, 1)
 }
 
