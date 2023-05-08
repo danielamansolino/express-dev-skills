@@ -1,3 +1,4 @@
+// Love that you changed all of this to `const` wonderful habit to get into :)
 const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
